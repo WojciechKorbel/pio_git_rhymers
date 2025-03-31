@@ -6,6 +6,7 @@ import edu.kis.vh.nursery.factory.RhymersFactory;
 class RhymersDemo {
 
     public static void main(String[] args) {
+        // 15. Projekt jest poporawny - przechodzi wszystkie testy jednostkowe
         RhymersFactory factory = new DefaultRhymersFactory();
 
         testRhymers(factory);
