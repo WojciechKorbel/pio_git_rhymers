@@ -7,7 +7,7 @@ public class IntLinkedList {
 
     private static final int DEFAULT_VALUE = -1;
     private Node last;
-    private int i;
+    private int i; // TODO: remove this variable - it is never used
 
     /**
      * Insert integer at the top of the list.

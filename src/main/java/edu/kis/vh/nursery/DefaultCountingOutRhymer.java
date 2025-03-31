@@ -9,6 +9,7 @@ public class DefaultCountingOutRhymer {
 
     private int total = EMPTY_RHYMER_INDEX;
 
+    // TODO: remove this getter - it is never used
     public int getTotal() {
         return total;
     }
